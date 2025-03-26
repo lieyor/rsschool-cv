@@ -45,7 +45,7 @@ _______
 
 ### Code example:
 
-```javascript
+
 function findAverage(array) {
     if (array.length === 0) return 0; 
     let sum = array.reduce((acc, num) => acc + num, 0); 
@@ -54,7 +54,7 @@ function findAverage(array) {
 
 
 
--------
+________
 
 
 
