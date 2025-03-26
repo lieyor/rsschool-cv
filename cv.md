@@ -45,23 +45,23 @@ _______
 
 ### Code example:
 
+```javascript
+function findAverage(array) {
+    if (array.length === 0) return 0; 
+    let sum = array.reduce((acc, num) => acc + num, 0); 
+    return sum / array.length;
+} 
 
-` function findAverage(array) {`
-  ` if (array.length === 0) return 0; `
-`   let sum = array.reduce((acc, num) => acc + num, 0); `
-`   return sum / array.length; `
-`} `
 
 
-
-__________
+-------
 
 
 
 
 ### Courses and experience:
 
-+ RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
++ RS Schools Course «JavaScript/Front-end. Stage 0 (in progress)
 
 
 
