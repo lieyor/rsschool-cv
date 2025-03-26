@@ -8,7 +8,7 @@ ______
 ### Contact information:
 
 - **Location**: Kiev, Ukraine
-- **Phone**: +380 053 13 03
+- **Phone**: +38 097 053 13 03
 - **Email**: yehorcurly@gmail.com
 - **GitHub**: [lieyor](https://github.com/lieyor)
 
