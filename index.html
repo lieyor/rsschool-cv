@@ -1,11 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="top-bar-myname">
+        <div class="">
+          <p class="first-name">Yehor</p>
+          <p class="second-name">Kucheriaviy</p>
+          <p class="ocupation">web-developer</p>
+        </div>
+        <img
+          class="profile-photo"
+          src="images/photo-profile1.jpg"
+          alt="photo-of-me"
+          width="300px"
+          height="300px"
+        />
+      </div>
+    </header>
+    <section>
+      <div class="main">
+        <div class="cont-left">
+          <div class="contact-cont-main">
+            <p class="contact-header points-cv">Contact:</p>
+            <div class="contact-points">
+              <p class="number-par">
+                <img
+                  src="images/call_18dp_E3E3E3_FILL0_wght400_GRAD0_opsz20.png"
+                  alt="phone-icon"
+                  height="30px"
+                  width="30px"
+                />
+                +38 097 053 13 03
+              </p>
+              <p class="mail-par">
+                <img
+                  src="images/mail_16dp_E3E3E3_FILL0_wght400_GRAD0_opsz20.png"
+                  alt="mail-icon"
+                  width="30px"
+                  height="30px"
+                />
+                yehorcurly@gmail.com
+              </p>
+              <div class="web-div">
+                <img
+                  src="images/language_16dp_E3E3E3_FILL0_wght400_GRAD0_opsz20.png"
+                  height="30px"
+                  width="30px"
+                  alt="web-icon"
+                />
+                <a href="https://github.com/lieyor"
+                  >https://github.com/lieyor</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="aboutme-cont">
+            <p class="points-cv">About me:</p>
+            <p class="about-text">
+              I possess strong interpersonal skills, work effectively in teams,
+              and am eager to learn and acquire new skills. I am trustworthy and
+              dependable, consistently looking for opportunities to take on new
+              responsibilities across various areas of work.
+            </p>
+          </div>
+          <div class="education-cont-main">
+                <article class="university-info">
+                    <p class="university-main points-cv">University:</p>
+                    <section class="university-text">
+                        <p>The State University "Kyiv Aviation Institute"</p>
+                        <p>
+                            I am a second-year student at the Faculty of Computer Science
+                            and Technology
+                        </p>
+                    </section>
+                </article>
+                <article class="courses-info">
+              <p class="courses-main points-cv">Courses:</p>
+              <section class="courses-list">
+                  <ul >
+                    <li>
+                      RS Schools Course | JavaScript/Front-end. Stage 0 (in progress)
+                    </li>
+                    <li>
+                      Bogdan Stashchuk | JavaScript - Masterclass in Web Development
+                    </li>
+                  </ul>
+              </section>
+                </article>
+          </div>
+          <div class="skills-cont">
+            <p class="points-cv">Skilss:</p>
+            <ul>
+              <li>HTML / CSS</li>
+              <li>JavaScript (Basic)</li>
+              <li>Git, GitHub</li>
+              <li>VS Code</li>
+            </ul>
+          </div>
+          <div class="code-exsample">
+                <p class="points-cv">Code exsample:</p>
+            <pre>
+                <code>
+                    function findAverage(array) {
+                        if (array.length === 0) return 0; 
+                        let sum = array.reduce((acc, num) => acc + num, 0); 
+                         return sum / array.length;
+                    } 
+                </code>
+            </pre>
+          </div>
+          <div class="level-of-english">
+            <p class="points-cv">Level of English:</p>
+            <section class="level-of-eng-info">
+                <p>B1</p>
+                <p>
+                  My English proficiency can be verified through my Duolingo English
+                  Test certificate.
+                </p>
+            </section>
+          </div>
+        </div>
+        <div class="cont-right">
+            <img src="images/fabrizio-conti-aExT3y92x5o-unsplash.jpg" alt="fon">
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

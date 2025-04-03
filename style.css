@@ -1,0 +1,160 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 1rem 1rem 1rem 1rem;
+}
+body{
+    background-color: #00000013;
+}
+.main {
+  display: flex;
+}
+.cont-left {
+  width: 60%;
+}
+.cont-right {
+  width: 40%;
+  border-left: 1px solid #000000f8 ;
+  
+
+}
+.top-bar-myname {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #000000;
+}
+.first-name,
+.second-name {
+  font-size: 4rem;
+}
+.first-name {
+  font-weight: 300;
+}
+.second-name {
+  font-weight: bold;
+  color: #050569e7;
+}
+.ocupation {
+  font-size: 2rem;
+  margin-left: 2rem;
+  font-weight: 100;
+}
+.profile-photo {
+  border-radius: 50%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  filter: grayscale(0.9);
+}
+.contact-cont-main,
+.university-info,
+.skills-cont,
+.level-of-english {
+  background-color: #0000002a;
+  padding: 1rem;
+  border-radius: 70%;
+  margin: 1rem;
+}
+
+.contact-header,
+.aboutme-cont {
+  font-size: 3rem;
+  margin: 0;
+}
+.contact-points {
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+}
+
+.mail-par,
+.web-div,
+.number-par {
+  display: flex;
+  align-items: center;
+  margin: 0rem;
+  margin-left: 2rem;
+  font-size: 18px;
+}
+.web-div a {
+  margin: 0;
+  text-decoration: none;
+  color: black;
+}
+.about-text {
+  font-size: 18px;
+  margin-left: 2rem;
+}
+.education-cont-main {
+  flex-direction: column;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.university-info,
+.courses-info {
+  margin: 0;
+}
+.university-text {
+  margin-left: 2rem;
+}
+.courses-list {
+  font-size: 18px;
+}
+.university-text p {
+  margin-left: 0;
+  font-size: 18px;
+}
+.university-main,
+.courses-main {
+  font-size: 3rem;
+}
+.skills-cont p {
+  font-size: 3rem;
+}
+.skills-cont {
+  font-size: 18px;
+}
+.code-exsample p {
+  font-size: 3rem;
+}
+
+pre,
+code {
+  font-family: monospace;
+}
+.level-of-english {
+  font-size: 3rem;
+}
+.level-of-eng-info {
+  font-size: 18px;
+}
+.points-cv {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 3px;
+}
+.points-cv::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #050569c4;
+  transform: scaleX(0);
+  transition: transform 1s ease;
+}
+.points-cv:hover {
+  color: #050569e7;
+  font-weight: bold;
+}
+.points-cv:hover::after {
+  transform: scaleX(1);
+  color: antiquewhite;
+}
+.cont-right img{
+    width: 100%;
+    height: 100%;
+    filter: blur(8);
+    filter: brightness(0.5);
+}
