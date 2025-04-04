@@ -3,7 +3,10 @@
   margin: 1rem 1rem 1rem 1rem;
 }
 body{
-    background-color: #00000013;
+    background-color: #00000007;
+  border: 2px solid #000000;
+  border-radius: 1%;
+
 }
 .main {
   display: flex;
@@ -13,7 +16,7 @@ body{
 }
 .cont-right {
   width: 40%;
-  border-left: 1px solid #000000f8 ;
+  border-left: 2px solid #000000f8 ;
   
 
 }
